@@ -1,0 +1,61 @@
+{
+  "name": "WhatsApp Lead Bot",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "whatsapp",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "df6fb5f1-1c7a-47c5-8483-15410d043021",
+      "name": "Webhook",
+      "webhookId": "d8255c60-c835-43b6-815e-5d42b8eb2c87"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "=Hello! Welcome to Bright Smile Dental Clinic.\nHow can I help you today?",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        208,
+        0
+      ],
+      "id": "2b51cfb5-b1ea-46ac-b4ef-27725f7b48a6",
+      "name": "Respond to Webhook"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "c1340c71-5535-4e76-9d7b-10f766ba7fc8",
+  "meta": {
+    "instanceId": "0844b900098aff32789a13db22edb580175af36eb7e86e90be0d6569af541956"
+  },
+  "id": "URy0zpc9zl8XO1SL",
+  "tags": []
+}
