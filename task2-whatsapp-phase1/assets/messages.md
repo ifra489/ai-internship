@@ -8,7 +8,9 @@
 
 ### 🇬🇧 English
 
-Welcome to **Smile Dental Clinic!** 👋
+Welcome to Smile Dental Clinic! 👋
+We're here to help you book an appointment or answer your questions.
+Please choose an option below:
 
 How can we help you today?
 
@@ -138,7 +140,7 @@ Thank you. We look forward to seeing you!
 
 Hi! 😊
 
-We're still here if you'd like to continue booking your appointment.
+We're here whenever you're ready to continue your appointment booking.
 
 Just reply whenever you're ready.
 
